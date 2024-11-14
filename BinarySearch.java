@@ -18,6 +18,8 @@ public class BinarySearch{
       arr[i] = fin.nextInt();
       System.out.println(arr[i]);
     }
+    Arrays.sort(arr);
+    System.out.println(Arrays.toString(arr));
     //sort array
     System.out.println("Input a value to search for in the file: ");
    
